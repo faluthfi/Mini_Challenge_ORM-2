@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <Title>
+      Users Update
+    </Title>
+  </head>
+  <body>
+    <form method="POST" action="/users/update/<%= user.id %>">
+      <label for="username">
+        Username
+      </label>
+      <br>
+      <input type="text" name="username" value="<%= user.username %>">
+      <br>
+
+      <label for="password">
+        Password
+      </label>
+      <br>
+      <input type="text" name="password" value="<%= user.password %>">
+      <br>
+
+      <button type="submit">
+        submit
+      </button>
+    </form>
+  </body>
+</html>

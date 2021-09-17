@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "overclocks",
+    "database": "minic_database",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "overclocks",
+    "database": "database_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "overclocks",
+    "database": "database_production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

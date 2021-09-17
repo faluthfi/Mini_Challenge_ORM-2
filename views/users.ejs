@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <Title>
+        Users Index
+    </Title>
+</head>
+
+<body>
+    <% user.forEach((i)=> { %>
+        <div>
+            <h3>
+             USERNAME: <%= i.username %>
+            </h3>
+
+            <h3>
+            PASSWORD: <%= i.password %>
+            </h3>
+            <br>
+
+            <a href="/users/update/<%= i.id %>">
+                Update
+            </a>
+
+            <br>
+
+            <a href="/users/delete/<%= i.id %>">
+                Hapus
+            </a>
+            <% }) %>
+</body>
+
+</html>
